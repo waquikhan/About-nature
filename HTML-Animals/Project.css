@@ -1,0 +1,394 @@
+ /* Boy Styling */
+ body{
+    background-color: rgb(92, 87, 87); 
+ }
+
+#logo{
+    height: 10px;
+    margin: 34px 45px;
+}
+#logo image{
+    margin: 34px 45px;
+}
+#navbar ul{
+    display: flex;
+}
+/* Heading - Container */
+.Heading{
+    font-size: 1.4rem;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1;
+    text-align: center;
+    color: #fbfafa;
+    font-family:Arial, Helvetica, sans-serif;
+
+    /* background-color: #bbb; */
+    /* text-decoration: none; */
+}
+/* Slideshow container */
+.slideshow-container{
+  width: 80%;
+  position: relative;
+  margin: auto;
+  border: solid rgb(188, 188, 161);
+
+  /* max-width: 1300px; */
+}
+/* Number text (1/6 etc) */
+.numbertext {
+    color: #f6f6f6;
+    font-size: 15px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+  }
+ /* Position the "next button" to the right. */
+  .next {
+    color: white;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    color: white;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: #363535;
+  }
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }  
+  /* The dots/bullets/indicators */
+.dot {
+    cursor:pointer;
+    height: 12px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .category-lion{
+    background-color: rgba(152, 147, 147, 0.742);
+    width: auto;
+    height: 610px;
+    /* position: fixed; */
+
+    /* background-color: #717171; */
+  }
+
+  #text-lion{
+    font-size: 1.3rem;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1;
+    text-align: center;
+    color: #0c160d;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+    /* display: flex; */
+    /* display: block;
+    color: #bbb;
+    width: 500px;
+    margin-left: 200px;
+    text-align: center; */
+
+  }
+
+  #Lion-image{
+    width: 200px;
+    height: 700px;
+    margin-left: 170px;
+    float: left;
+    margin-top: 10px;
+    width: 24%;
+    display: flex;
+    border: solid rgb(188, 188, 161);
+    
+    
+
+    /* position: relative; */
+    /* margin: auto; */
+    /* border: solid rgb(188, 188, 161); */
+    /* margin: 2px solid white; */
+    /* border: 1px solid white; */
+    /* position: relative; */
+    /* margin: auto; */
+    /* border: solid rgb(188, 188, 161); */
+  }
+
+  /* .lion-Text{
+    padding-top: 50rem;
+    margin-top: 40px;
+    color: #bbb;
+    display: inline;
+    font-size: 1.2rem;
+    color: rgb(196, 184, 184);
+    font-family:Arial, Helvetica, sans-serif;
+
+  } */
+  .lion-Text h1{
+    padding-top: 0px;
+    color: #eeecece6;
+    display:inline-flex;
+    padding-left:105px ;
+    font-size: 4rem;
+    width:500px;
+
+    /* display: inline-block; */
+    /* background-color: red; */
+    /* color: rgb(115, 164, 2); */
+  }
+  .lion-Text h2{
+    padding-top: 0px;
+    margin: 0px;
+    color: #eeecece6;
+    display:inline-flex;
+    padding-left:70px ;
+    font-size: 1.5rem;
+    width:900px;
+
+    /* background-color: red; */
+  }
+  .lion-Text h5{
+    padding-top: 0px;
+    margin: 0px;
+    color: #eeecece6;
+    display:inline-flex;
+    padding-left:70px ;
+    font-size: 1.5rem;
+    width:700px;
+
+    /* background-color: red; */
+  }
+   #Lion-Btn{
+    
+    padding: 20px; 
+    margin: 20px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    float: right;
+    margin-right: 100px;
+    border-radius: 20px;
+   color: #f2f2f2; 
+  } 
+  #Lion-Btn-1{
+    color: white;
+    font-size: 1.2rem;
+
+    /* padding: 20px; 
+    margin: 20px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    float: right;
+    margin-right: 100px;
+    border-radius: 16px; */
+  }
+  #Lion-Btn-1:hover{
+    color: rgb(159, 241, 6);
+    /* background-color: #c8b8b8; */
+  }
+  .Color-Passage-1{
+    background-color: #c2c2c2;
+    padding-top: 180px;
+    height: 35px;
+  }
+
+  .category-Monkey{
+    background-color: rgba(255, 255, 255, 0.975);
+    width: auto;
+    height: 690px;
+  }
+  
+  .Monkey-image{
+    width: 200px;
+    height: 700px;
+    margin-left: 290px;
+    float: left;
+    margin-top: 40px;
+    display: flex;
+    /* border: solid rgb(188, 188, 161); */
+  }
+  .Monkey-Text h1{
+    padding-top: 40px;
+    /* margin-top: 100px */
+    color: #c6e14fe6;
+    display:inline-flex;
+    padding-left:140px ;
+    font-size: 4rem;
+    /* position:absolute; */
+    /* width:500px; */
+
+    /* display: inline-block; */
+    /* background-color: red; */
+    /* color: rgb(115, 164, 2); */
+  }
+  .Monkey-Text h2{
+    padding-top: 0px;
+    margin: 0px;
+    color: rgb(203 203 60);
+    display:inline-flex;
+    padding-left:130px ;
+    font-size: 1.5rem;
+    width:1000px;
+
+    /* position: absolute; */
+  }
+  #Monkey-Btn{
+    
+    padding: 20px; 
+    margin: 20px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    float: right;
+    margin-right: 100px;
+    border-radius: 20px;
+   color: #f2f2f2; 
+  } 
+  #Monkey-Btn-1{
+    color: white;
+    font-size: 1.2rem;
+
+    /* padding: 20px; 
+    margin: 20px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    float: right;
+    margin-right: 100px;
+    border-radius: 16px; */
+  }
+  #Monkey-Btn-1:hover{
+    color: rgb(159, 241, 6);
+    /* background-color: #c8b8b8; */
+  }
+
+
+  /* Add background colour and some design around form  */
+  #FeedBack-Form{
+  border-radius: 5px;
+  width: 80%;
+  color: white;
+  /* background-color: #ea1d1d; */
+  padding: 50px;
+  padding-left: 10%;
+  display: inline-block;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=Reset] {
+  background-color: #04AA6D;
+  color: white;
+  width: 100px;
+  text-align: center;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=Reset]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+/* .FeedBack-Form {
+  border-radius: 5px;
+  width: 500px;
+  background-color: #ea1d1d;
+  padding: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Fading animation */
+/* .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  } */
+  
+  /* @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  } */
+  
+  /* On smaller screens, decrease text size
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  } */
+  /* #category-lion{
+    color:  #bbb;
+    display: block;
+    display: flex;
+    padding: 10px 50px;
+  } */
